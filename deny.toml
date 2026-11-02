@@ -20,3 +20,25 @@ allow = [
   "OpenSSL",
 ]
 confidence-threshold = 0.9
+
+# Crates that ship a license file instead of a license field.
+[[licenses.clarify]]
+crate = "voice_activity_detector"
+expression = "MIT"
+license-files = [{ path = "LICENSE", hash = 0x873e249 }]
+
+[[licenses.clarify]]
+crate = "webrtc-audio-processing"
+expression = "BSD-3-Clause"
+license-files = [{ path = "COPYING", hash = 0xc47ba509 }]
+
+[[licenses.clarify]]
+crate = "webrtc-audio-processing-config"
+expression = "BSD-3-Clause"
+license-files = [{ path = "COPYING", hash = 0xce3e0803 }]
+
+[[licenses.clarify]]
+crate = "webrtc-audio-processing-sys"
+expression = "BSD-3-Clause"
+license-files = [{ path = "COPYING", hash = 0xce3e0803 }]
+
