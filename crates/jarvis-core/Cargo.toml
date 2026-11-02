@@ -1,0 +1,9 @@
+[package]
+name = "jarvis-core"
+description = "JARVIS core: voice pipeline, AI brain, memory and tools"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]

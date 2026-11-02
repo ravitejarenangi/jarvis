@@ -1,0 +1,15 @@
+[package]
+name = "jarvis-app"
+description = "JARVIS desktop app: holographic HUD and arc-reactor orb"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "jarvis"
+path = "src/main.rs"
+
+[dependencies]
+bevy.workspace = true
+jarvis-core.workspace = true

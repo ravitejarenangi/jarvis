@@ -1,0 +1,8 @@
+target/
+*.bin
+*.onnx
+.DS_Store
+.env
+.env.*
+.omc/
+progress.txt
